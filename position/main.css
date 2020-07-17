@@ -1,0 +1,48 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-layer {
+  background-color: green;
+  height: 80%;
+  width:80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-layer {
+  background-color: fuchsia;
+  height: 80%;
+  width: 80%;
+  position: relative;
+}
+
+.inner-layer {
+  height: 100px;
+  width:100px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+
+.top {
+  top:0;
+}
+
+.bottom {
+  bottom:0;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
